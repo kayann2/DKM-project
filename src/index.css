@@ -1,0 +1,63 @@
+@import "tailwindcss";
+
+@layer base {
+  :root {
+    --font-display: 'Outfit', system-ui, -apple-system, sans-serif;
+    --font-sans: 'Plus Jakarta Sans', system-ui, -apple-system, sans-serif;
+    --font-mono: 'JetBrains Mono', monospace;
+  }
+
+  body {
+    font-family: var(--font-sans);
+    background-color: #020408;
+    color: #f8fafc;
+    overflow-x: hidden;
+  }
+
+  h1, h2, h3, h4, .font-display {
+    font-family: var(--font-display);
+  }
+
+  .font-mono {
+    font-family: var(--font-mono);
+    font-variant-numeric: tabular-nums;
+  }
+}
+
+/* Deep spatial dark room background with subtle radial depth */
+.studio-vignette {
+  background:
+    radial-gradient(circle at 50% 44%, rgba(0, 102, 255, 0.08) 0%, rgba(4, 9, 20, 0.52) 44%, rgba(2, 4, 8, 0.98) 82%),
+    #020408;
+}
+
+/* Lightweight GPU-friendly text legibility shadow */
+.floating-text-glow {
+  text-shadow: 0 2px 14px rgba(2, 4, 8, 0.95);
+}
+
+/* GPU compositor hint for disintegrating word fragments */
+.word-fragment {
+  display: inline-block;
+  will-change: transform, opacity;
+  backface-visibility: hidden;
+}
+
+@keyframes scrollWheelPulse {
+  0% {
+    transform: translate3d(0, 0, 0);
+    opacity: 1;
+  }
+  70% {
+    transform: translate3d(0, 10px, 0);
+    opacity: 0.15;
+  }
+  100% {
+    transform: translate3d(0, 0, 0);
+    opacity: 1;
+  }
+}
+
+.scroll-wheel-dot {
+  animation: scrollWheelPulse 1.8s cubic-bezier(0.22, 1, 0.36, 1) infinite;
+}

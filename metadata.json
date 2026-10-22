@@ -1,0 +1,6 @@
+{
+  "name": "DKM — Engenharia Digital & Sites Independentes",
+  "description": "Desenvolvimento de sites independentes, sistemas web sob medida e engenharia de alta conversão. Bota na minha mão que eu resolvo.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
