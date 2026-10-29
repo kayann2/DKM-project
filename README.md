@@ -1,5 +1,5 @@
 # DKM — Engenharia Digital & Sites Independentes
-
+<img width="1280" height="720" alt="Image" src="https://github.com/user-attachments/assets/dd68d685-ff08-4a6d-a164-b1b2e3a97de0" />
 Landing page interativa em 3D desenvolvida para a **DKM**, com cubo mágico 3x3x3 de vidro prismático procedural em **Three.js / WebGL** (`InstancedMesh` + GLSL Shader customizado), sistema de partículas luminosas na GPU, tipografia flutuante com efeito de desintegração no scroll e captação direta integrada ao **WhatsApp**.
 
 ## Tecnologias
